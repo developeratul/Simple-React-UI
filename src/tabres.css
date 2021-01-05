@@ -1,0 +1,45 @@
+@media screen and (max-width: 1024px) {
+  #Container {
+    width: 770px;
+  }
+  nav #NavLinks {
+    width: 100%;
+  }
+  nav #NavTitle {
+    margin: 10px 0px;
+    width: 10%;
+  }
+  header #HeaderDesc {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+  }
+  header #HeaderDesc h1 {
+    margin-bottom: 10px;
+  }
+  header #HeaderDesc p {
+    margin-bottom: 40px;
+  }
+  #About #AboutContentWrapper #AboutDesc {
+    width: 60%;
+  }
+  #About #AboutContentWrapper #AboutDesc p {
+    font-weight: 900;
+  }
+  #About #AboutContentWrapper #AboutImage {
+    width: 40%;
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #Container {
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 1100px) and (max-width: 950px) {
+  #Container {
+    width: 750px;
+  }
+}

@@ -1,0 +1,131 @@
+@media screen and (max-width: 768px) {
+  #Container {
+    width: 90%;
+  }
+  a {
+    cursor: default;
+  }
+  nav {
+    padding: 10px 0px;
+  }
+  nav #NavTitle {
+    margin: 0;
+  }
+  nav #NavContentWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  nav #NavContentWrapper #Burger {
+    display: block;
+  }
+  nav #NavContentWrapper #Burger i {
+    font-size: 2rem;
+    color: aliceblue;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  nav #NavContentWrapper #Burger i:hover {
+    color: white;
+  }
+  nav #NavContentWrapper #Burger:hover #NavLinksMobile {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  nav #NavContentWrapper #Burger #NavLinksMobile {
+    background-color: #b24040;
+    display: block;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: 6;
+  }
+  nav #NavContentWrapper #Burger #NavLinksMobile li {
+    display: block;
+  }
+  nav #NavContentWrapper #Burger #NavLinksMobile li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: azure;
+  }
+  nav #NavLinks {
+    width: 30%;
+    display: none;
+  }
+  nav #NavLinks li {
+    display: none;
+  }
+  nav #NavLinks li a {
+    display: none;
+  }
+  header #HeaderDesc {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  header #HeaderDesc h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  header #HeaderDesc p {
+    margin-bottom: 40px;
+  }
+  #About {
+    height: auto;
+    padding: 100px 0px 50px 0px;
+  }
+  #About #AboutContentWrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  #About #AboutContentWrapper #AboutDesc {
+    text-align: center;
+    width: 100%;
+  }
+  #About #AboutContentWrapper #AboutDesc p {
+    text-align: center;
+    font-weight: 900;
+  }
+  #About #AboutContentWrapper #AboutImage {
+    width: 90%;
+    margin: 20px 0px;
+  }
+  #Service #SingleServices {
+    width: 90%;
+  }
+  #Team #SingleTeam {
+    width: 90%;
+  }
+  #Team #SingleTeam img {
+    height: auto;
+  }
+}
