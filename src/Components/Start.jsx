@@ -27,7 +27,7 @@ const Start = () => {
   }
   const Submit = (val) => {
     alert(
-      `Thanks a lot ${data.name} for getting started with us
+      `Thanks a lot ${data.fullName} for getting started with us
       
       We have just got your whole information.
       You are from ${data.country}.
